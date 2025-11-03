@@ -1,16 +1,32 @@
-# React + Vite
+# CineVerse – Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to search movies and TV series, view top curated lists, and explore movie details. Built with **React**, **Vite**, and **Tailwind CSS**, using the **OMDb API**.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Demo on Vercel](https://cineverse-movie-search-git-main-san-aungs-projects.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search for movies or series by keyword
+- View Top 10 Movies and Top 10 Series on the homepage
+- Click on a movie/series to see detailed information
+- Responsive design for desktop and mobile
+- Dark-themed UI with modern components
 
-## Expanding the ESLint configuration
+## Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Navbar** – Logo, Home link, search bar
+- **TopMovies** & **TopSeries** – Curated lists with caching
+- **SearchResults** – Displays results from search queries
+- **MovieDetail** – Detailed view of selected movie/series
+- **MovieCard** – Individual card for movies/series
+- **Footer** – Page footer with project info
+
+## Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- OMDb API
+- React Router v6
+
